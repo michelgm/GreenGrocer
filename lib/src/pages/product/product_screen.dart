@@ -5,7 +5,7 @@ import '../../models/item_model.dart';
 import '../../services/utils_services.dart';
 
 class ProductScreen extends StatefulWidget {
-  ProductScreen({super.key, required this.item});
+  const ProductScreen({super.key, required this.item});
 
   final ItemModel item;
 
