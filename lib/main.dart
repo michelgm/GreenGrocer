@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:greengrocer/src/pages/auth/sign_in_screen.dart';
-import 'package:greengrocer/src/pages/splash/spash_screen.dart';
+import 'package:get/get.dart';
+import 'package:greengrocer/src/pages/auth/controller/auth_controller.dart';
+import 'package:greengrocer/src/pages_routes/app_pages.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  Get.put(AuthController());
   runApp(const MyApp());
 }
 
@@ -11,7 +14,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       title: 'Greengrocer',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
@@ -19,7 +22,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: const SplashScreen(),
+      initialRoute: PagesRoutes.splashRoute,
+      getPages: AppPages.pages,
     );
   }
 }
