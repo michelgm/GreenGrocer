@@ -44,7 +44,7 @@ class _ProfileTabState extends State<ProfileTab> {
         padding: const EdgeInsets.fromLTRB(16, 32, 16, 16),
         children: [
           // Email
-          CustomTextFild(
+          CustomTextField(
             icon: Icons.email,
             label: 'Email',
             initialValue: appData.user.email,
@@ -52,7 +52,7 @@ class _ProfileTabState extends State<ProfileTab> {
           ),
 
           // Nome
-          CustomTextFild(
+          CustomTextField(
             icon: Icons.person,
             label: 'Nome',
             initialValue: appData.user.name,
@@ -60,7 +60,7 @@ class _ProfileTabState extends State<ProfileTab> {
           ),
 
           // Celular
-          CustomTextFild(
+          CustomTextField(
             icon: Icons.phone_android,
             label: 'Celular',
             initialValue: appData.user.phone,
@@ -68,7 +68,7 @@ class _ProfileTabState extends State<ProfileTab> {
           ),
 
           // Cpf
-          CustomTextFild(
+          CustomTextField(
             icon: Icons.file_copy,
             label: 'CPF',
             isSecret: true,
@@ -120,21 +120,21 @@ class _ProfileTabState extends State<ProfileTab> {
                     ),
 
                     // Senha
-                    const CustomTextFild(
+                    const CustomTextField(
                       icon: Icons.lock,
                       label: 'Senha atual',
                       isSecret: true,
                     ),
 
                     // Nova senha
-                    const CustomTextFild(
+                    const CustomTextField(
                       icon: Icons.lock_outline,
                       label: 'Nova senha',
                       isSecret: true,
                     ),
 
                     // Confirmação nova senha
-                    const CustomTextFild(
+                    const CustomTextField(
                       icon: Icons.lock_outline,
                       label: 'Confirmar nova senha',
                       isSecret: true,

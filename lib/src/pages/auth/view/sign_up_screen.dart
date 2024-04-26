@@ -66,7 +66,7 @@ class SignUpScreen extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.stretch,
                         children: [
-                          CustomTextFild(
+                          CustomTextField(
                             icon: Icons.email_outlined,
                             label: "Email",
                             onSaved: (value) {
@@ -75,7 +75,7 @@ class SignUpScreen extends StatelessWidget {
                             validator: emailValidator,
                             textInputType: TextInputType.emailAddress,
                           ),
-                          CustomTextFild(
+                          CustomTextField(
                             icon: Icons.lock_outline,
                             label: "Senha",
                             onSaved: (value) {
@@ -84,7 +84,7 @@ class SignUpScreen extends StatelessWidget {
                             validator: passwordValidator,
                             isSecret: true,
                           ),
-                          CustomTextFild(
+                          CustomTextField(
                             icon: Icons.person_outline,
                             label: "Nome",
                             onSaved: (value) {
@@ -92,7 +92,7 @@ class SignUpScreen extends StatelessWidget {
                             },
                             validator: nameValidator,
                           ),
-                          CustomTextFild(
+                          CustomTextField(
                             icon: Icons.phone,
                             label: "Celular",
                             onSaved: (value) {
@@ -102,7 +102,7 @@ class SignUpScreen extends StatelessWidget {
                             inputFormatters: [phoneFormatter],
                             textInputType: TextInputType.phone,
                           ),
-                          CustomTextFild(
+                          CustomTextField(
                             icon: Icons.file_copy_outlined,
                             label: "Cpf",
                             onSaved: (value) {
