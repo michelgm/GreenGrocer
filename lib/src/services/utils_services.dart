@@ -58,13 +58,14 @@ class UtilsServices {
     ).show(context);
   }
 
-  void showToastF({required String message}) {
+  void showToastF({required String message, bool isError = false}) {
     Fluttertoast.showToast(
       msg: message,
       toastLength: Toast.LENGTH_LONG,
       gravity: ToastGravity.BOTTOM,
       timeInSecForIosWeb: 3,
       fontSize: 14,
+      textColor: isError ? Colors.red : CustomColors.customSwatchColor,
     );
   }
 }
