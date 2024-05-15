@@ -1,6 +1,5 @@
 import 'package:greengrocer/src/models/item_model.dart';
 
-import '../models/cart_item_model.dart';
 import '../models/order_model.dart';
 import '../models/user_model.dart';
 
@@ -76,20 +75,20 @@ List<String> categories = [
   'Cereais',
 ];
 
-List<CartItemModel> cartItems = [
-  CartItemModel(
-    item: apple,
-    quantity: 2,
-  ),
-  CartItemModel(
-    item: mango,
-    quantity: 1,
-  ),
-  CartItemModel(
-    item: guava,
-    quantity: 3,
-  ),
-];
+// List<CartItemModel> cartItems = [
+//   CartItemModel(
+//     item: apple,
+//     quantity: 2,
+//   ),
+//   CartItemModel(
+//     item: mango,
+//     quantity: 1,
+//   ),
+//   CartItemModel(
+//     item: guava,
+//     quantity: 3,
+//   ),
+// ];
 
 UserModel user = UserModel(
   name: 'michel',
@@ -101,38 +100,38 @@ UserModel user = UserModel(
 
 List<OrderModel> orders = [
   // Pedido 1
-  OrderModel(
-    copyAndPaste: 'qwuhjdbnjwen',
-    createDateTime: DateTime.parse('2024-03-03 10:00:00.456'),
-    overdueDateTime: DateTime.parse('2024-04-03 11:00:00.456'),
-    id: 'idsfndmsfnmdfn',
-    status: 'pending_payment',
-    total: 11,
-    items: [
-      CartItemModel(
-        item: apple,
-        quantity: 2,
-      ),
-      CartItemModel(
-        item: mango,
-        quantity: 2,
-      ),
-    ],
-  ),
+  // OrderModel(
+  //   copyAndPaste: 'qwuhjdbnjwen',
+  //   createDateTime: DateTime.parse('2024-03-03 10:00:00.456'),
+  //   overdueDateTime: DateTime.parse('2024-04-03 11:00:00.456'),
+  //   id: 'idsfndmsfnmdfn',
+  //   status: 'pending_payment',
+  //   total: 11,
+  //   items: [
+  //     // CartItemModel(
+  //     //   item: apple,
+  //     //   quantity: 2,
+  //     // ),
+  //     // CartItemModel(
+  //     //   item: mango,
+  //     //   quantity: 2,
+  //     // ),
+  //   ],
+  // ),
 
-  // Pedido 2
-  OrderModel(
-    copyAndPaste: 'qwuhjdbnjwen',
-    createDateTime: DateTime.parse('2024-03-27 10:00:00.456'),
-    overdueDateTime: DateTime.parse('2024-04-03 11:00:00.456'),
-    id: 'idsfndmsfnmdfn',
-    status: 'delivered',
-    total: 11,
-    items: [
-      CartItemModel(
-        item: guava,
-        quantity: 3,
-      ),
-    ],
-  ),
+  // // Pedido 2
+  // OrderModel(
+  //   copyAndPaste: 'qwuhjdbnjwen',
+  //   createDateTime: DateTime.parse('2024-03-27 10:00:00.456'),
+  //   overdueDateTime: DateTime.parse('2024-04-03 11:00:00.456'),
+  //   id: 'idsfndmsfnmdfn',
+  //   status: 'delivered',
+  //   total: 11,
+  //   items: [
+  //     // CartItemModel(
+  //     //   item: guava,
+  //     //   quantity: 3,
+  //     // ),
+  //   ],
+  // ),
 ];
