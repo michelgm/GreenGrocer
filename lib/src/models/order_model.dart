@@ -9,7 +9,8 @@ part 'order_model.g.dart';
 class OrderModel {
   String id;
 
-  DateTime? createDateTime;
+  @JsonKey(name: 'createdAt')
+  DateTime? createdDateTime;
 
   @JsonKey(name: 'due')
   DateTime overdueDateTime;
@@ -23,9 +24,12 @@ class OrderModel {
   @JsonKey(name: 'copiaecola')
   String copyAndPaste;
   double total;
+
+  bool get isOverDue => overdueDateTime.isBefore(DateTime.now());
+
   OrderModel({
     required this.id,
-    this.createDateTime,
+    this.createdDateTime,
     required this.overdueDateTime,
     required this.items,
     required this.status,
@@ -40,6 +44,6 @@ class OrderModel {
 
   @override
   String toString() {
-    return 'OrderModel(id: $id, createDateTime: $createDateTime, overdueDateTime: $overdueDateTime, items: $items, status: $status, qrCodeImage: $qrCodeImage, copyAndPaste: $copyAndPaste, total: $total)';
+    return 'OrderModel(id: $id, createDateTime: $createdDateTime, overdueDateTime: $overdueDateTime, items: $items, status: $status, qrCodeImage: $qrCodeImage, copyAndPaste: $copyAndPaste, total: $total)';
   }
 }
