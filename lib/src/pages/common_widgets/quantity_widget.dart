@@ -75,7 +75,6 @@ class _QuantityButton extends StatelessWidget {
     required this.color,
     required this.icon,
     required this.onPressed,
-    super.key,
   });
 
   @override
