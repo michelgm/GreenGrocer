@@ -16,19 +16,25 @@ Welcome to **GreenGrocer**, a Flutter-based mobile application designed to provi
 ## Screenshots
 
 ### Home Page
-![Home Page](screenshots/home_page.png)
+
+<img src="https://github.com/michelgm/GreenGrocer/assets/99933941/861436f1-012a-4fd0-92c1-ba55d9164ea5" width="250"/><br />
 
 ### Product Details
-![Product Details](screenshots/product_details.png)
+<img src="https://github.com/michelgm/GreenGrocer/assets/99933941/d3a2b288-9f99-4c53-9dae-947e1ab1bd17" width="250"/><br />
 
 ### Cart
-![Cart](screenshots/cart.png)
+
+<img src="https://github.com/michelgm/GreenGrocer/assets/99933941/3474fb43-393d-4c17-8f30-9f0665ca9980" width="250">
+<img src="https://github.com/michelgm/GreenGrocer/assets/99933941/0402fa89-53fb-4298-9931-bc95ef701215" width="250">
+<img src="https://github.com/michelgm/GreenGrocer/assets/99933941/bb5c0a45-97c5-41a2-9879-4d2840d9ebbc" width="250"/><br />
 
 ### Orders
-![Orders](screenshots/orders.png)
+
+<img src="https://github.com/michelgm/GreenGrocer/assets/99933941/ab43c821-b902-4b74-b090-a44eb125b5c8" width="250"/><br />
 
 ### Profile
-![Profile](screenshots/profile.png)
+
+<img src="https://github.com/michelgm/GreenGrocer/assets/99933941/a30865ee-0050-488d-a222-53fe52e2e14e" width="250"/><br />
 
 ## Installation
 
