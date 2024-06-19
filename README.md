@@ -43,8 +43,8 @@ To run this project locally, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/greengrocer.git
-   cd greengrocer
+   git clone https://github.com/michelgm/GreenGrocer
+   cd GreenGrocer
 
 2. **Install dependencies:**
 
@@ -177,9 +177,9 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 If you have any questions or need further information, please feel free to contact me:
 
-- **Email:** [your.email@example.com](mailto:your.email@example.com)
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
-- **GitHub:** [Your GitHub Profile](https://github.com/yourusername)
+- **Email:** [michelgmendonca@gmail.com](mailto:michelgmendonca@gmail.com)
+- **LinkedIn:** [michelgmendonca](https://www.linkedin.com/in/michelgmendonca)
+- **GitHub:** [michelgm](https://github.com/michelgm)
 
 ## Acknowledgements
 
@@ -191,8 +191,6 @@ If you have any questions or need further information, please feel free to conta
 Thank you for checking out GreenGrocer! I hope you find it useful and enjoy using it as much as I enjoyed building it.
 
 ---
-
-**Note:** Replace the placeholder links and contact information with your actual details before sharing this README.
 
 
 
